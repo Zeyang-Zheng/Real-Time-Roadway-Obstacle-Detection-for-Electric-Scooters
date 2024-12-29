@@ -2,7 +2,7 @@
 
 This system employs the YOLOv5s model to detect ground obstacles. It integrates RGB images with depth images to estimate the distance to detected ground obstacles in real time.
 
-## 1. Installation
+## 1. Environment setup
 - 
 
 ## 2. Running the program
