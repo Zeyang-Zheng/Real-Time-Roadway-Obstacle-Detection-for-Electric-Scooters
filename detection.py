@@ -308,7 +308,7 @@ class DetectionWindow(QtWidgets.QMainWindow):
 
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--weights", type=str, default="rodadway_obstacle_detection_for_e-scooters__model/best.pt", help="model path")
+    parser.add_argument("--weights", type=str, default="trained_model/best.pt", help="model path")
     parser.add_argument("--source", type=str, default="realsense", help="source")
     parser.add_argument("--imgsz", "--img", "--img-size", nargs="+", type=int, default=[640,480], help="inference size")
     parser.add_argument("--conf-thres", type=float, default=0.5, help="confidence threshold")
