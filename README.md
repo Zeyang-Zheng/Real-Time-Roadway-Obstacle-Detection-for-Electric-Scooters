@@ -1,5 +1,7 @@
 # Real-Time Roadway Obstacle Detection for Electric Scooters Using Deep Learning and Multi-Sensor Fusion
 
+This system employs the YOLOv5s model to detect ground obstacles. It integrates RGB images with depth images to estimate the distance to detected ground obstacles in real time.
+
 ## 1. Installation
 - 
 
