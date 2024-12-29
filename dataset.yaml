@@ -1,0 +1,10 @@
+# dataset.yaml
+
+train: /project/Driver_in_the_loop/Scooter/Obstacle_Detection/Model/ScooterDet/Obstacles_dataset11/train/images
+val: /project/Driver_in_the_loop/Scooter/Obstacle_Detection/Model/ScooterDet/Obstacles_dataset11/val/images
+test: /project/Driver_in_the_loop/Scooter/Obstacle_Detection/Model/ScooterDet/Obstacles_dataset11/test/images
+
+nc: 6  # Number of classes
+
+names: ['manhole cover','non-directional crack', 'pine cone', 'pothole', 'tree branch', 'truncated dome']
+
