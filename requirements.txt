@@ -1,0 +1,10 @@
+numpy
+torch
+torchvision
+torchaudio
+pyrealsense2
+pyqt5
+pyqtgraph
+ultralytics
+pyyaml
+opencv-python

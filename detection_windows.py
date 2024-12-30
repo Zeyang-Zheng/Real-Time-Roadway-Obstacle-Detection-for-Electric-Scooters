@@ -28,7 +28,7 @@ from utils.general import (
 )
 from utils.torch_utils import select_device, smart_inference_mode
 
-# Modify pathlib for compatibility if needed (Windows environment)
+# Windows environment
 import pathlib
 pathlib.PosixPath = pathlib.WindowsPath
 

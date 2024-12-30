@@ -1,20 +1,52 @@
 # Real-Time Roadway Obstacle Detection for Electric Scooters Using Deep Learning and Multi-Sensor Fusion
 
-This system employs the YOLOv5s model to detect ground obstacles. It integrates RGB images with depth images to estimate the distance to detected ground obstacles in real time.
+The system uses the YOLOv5s model to detect ground obstacles. It combines RGB and depth images captured by the Intel RealSense Camera D435i to estimate the distance to ground obstacles in real time.
 
-## 1. Environment setup
-- 
+## 💻 Get Started
+Linux
 
-## 2. Running the program
-- 
+```
+# Clone the repository:
+git clone https://github.com/Zeyang-Zheng/Real-Time-Roadway-Obstacle-Detection-for-Electric-Scooters.git
+cd Real-Time-Roadway-Obstacle-Detection-for-Electric-Scooters
 
-# Citation
+# Create and active a conda environment
+conda create -n e-scooters python=3.8
+conda activate e-scooters
+
+# Install dependencies:
+pip install -r requirements.txt
+
+# Run the code:
+python detection_linux.py --view-img --conf-thres 0.5
+```
+
+Windows
+
+```
+# Clone the repository:
+git clone https://github.com/Zeyang-Zheng/Real-Time-Roadway-Obstacle-Detection-for-Electric-Scooters.git
+cd Real-Time-Roadway-Obstacle-Detection-for-Electric-Scooters
+
+# Create and active a conda environment
+conda create -n e-scooters python=3.8
+conda activate e-scooters
+
+# Install dependencies:
+pip install -r requirements.txt
+
+# Run the code:
+python detection_windows.py --view-img --conf-thres 0.5
+```
+
+## 📖Citation
 If you find this work is useful, consider citing the following article:
-```
-Coming soon
+
 ```
 
-# Reference
+```
+
+## 📚Reference
 - YOLOv5 model: https://github.com/ultralytics/yolov5.
 
   
